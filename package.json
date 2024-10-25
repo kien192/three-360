@@ -1,0 +1,23 @@
+{
+  "name": "360-image-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kien192/three-360.git"
+  },
+  "author": "Kien Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kien192/three-360/issues"
+  },
+  "homepage": "https://github.com/kien192/three-360#readme",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  }
+}
