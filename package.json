@@ -19,5 +19,8 @@
   "homepage": "https://github.com/kien192/three-360#readme",
   "devDependencies": {
     "electron": "^33.0.2"
+  },
+  "dependencies": {
+    "360-image-view": "file:"
   }
 }

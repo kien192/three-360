@@ -1,0 +1,29 @@
+#compass {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+}
+
+#compass-circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  background-color: #333;
+}
+#direction-indicator {
+  position: absolute; /* Thay đổi sang absolute để giúp dễ dàng căn giữa */
+  top: 50%;
+  left: 50%;
+  width: 100%; /* Chiếm toàn bộ chiều rộng */
+  height: 100%; /* Chiếm toàn bộ chiều cao */
+  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); Căn giữa cả chiều ngang và dọc */
+  display: flex; /* Sử dụng flex để căn giữa nội dung */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  transition: transform 0.3s ease;
+}
